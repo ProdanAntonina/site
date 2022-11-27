@@ -1,0 +1,64 @@
+body{
+    background-image: url('/img/nissan.jpg');
+    font-family: Hind, sans-serif;
+}
+
+
+nav.nav-head{
+    display: flex;
+    width: 100%;
+    background: gray;
+    border-radius: 10px;
+}
+
+nav.nav-head .ul-left{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    margin-left: 10em;
+    height: 30px;
+}
+
+nav.nav-head .ul-left li{
+    padding: 1em;
+}
+
+.ul-left li:hover{
+    background-color: darkslategray;
+    border-radius: 10px;
+    
+   
+}    
+
+nav.nav-head .ul-right{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 30%;
+    margin-left: 15em;
+    margin-right: 5em;
+    height: 30px;
+}
+
+nav.nav-head .ul-right li{
+    padding: 1em;
+}
+
+nav.nav-head .ul-left li a{
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.ul-right li:hover{
+    background-color: #0F1013;
+}    
+
+nav.nav-head .ul-right li a{
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
